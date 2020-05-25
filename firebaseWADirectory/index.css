@@ -1,3 +1,4 @@
+/* stylings for entire page */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,9 @@ body {
   color: white;
 }
 
-.location, .temperature{
+/* stylings for the .location and .temperature boxes */
+.location,
+.temperature {
   height: 30vh;
   width: 50%;
   display: flex;
@@ -28,6 +31,7 @@ body {
   flex-direction: column;
 }
 
+/* stylings for the degree section */
 .degree-section {
   display: flex;
   align-items: center;
